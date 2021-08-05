@@ -9,4 +9,4 @@ Proyecto colaborativo de matematica discreta donde se ponen en practica los cono
 ## Features
 
 - Función de disperción: Implemente  un  sistema  dehash (utilizando  una función  de  dispersión H(x))  para  almacenar números enteros positivos en un arreglo.
-- Escriba un programa que genere números pseudoaleatorios usando el método congruencia lineal.
+- Generador de números pseudoaleatorios: Escriba un programa que genere números pseudoaleatorios usando el método congruencia lineal.
