@@ -11,7 +11,7 @@ class TablaHash:
 
       if self.ranuras[valorHash] == None:
         self.ranuras[valorHash] = clave
-        #self.datos[valorHash] = dato
+        self.datos[valorHash] = dato
       else:
         if self.ranuras[valorHash] == clave:
           self.datos[valorHash] = dato  #reemplazo
@@ -57,17 +57,47 @@ class TablaHash:
     def __setitem__(self,clave,dato):
         self.agregar(clave,dato)
 
+a = [1489,1237,1312,1548,1209,853,519,992,339,535,883,1246,1325,582,82,1517,744]
+
+
 H=TablaHash()
-H[54]="gato"
-H[26]="perro"
-H[93]="leon"
-H[17]="tigre"
-H[77]="pajaro"
-H[31]="vaca"
-H[44]="cabra"
-H[55]="cerdo"
-H[20]="pollo"
+H[a[0]]= 1 
+a.pop(0)
+H[a[0]]="2"
+a.pop(0)
+H[a[0]]="3"
+a.pop(0)
+H[a[0]]="4"
+a.pop(0)
+H[a[0]]="5"
+a.pop(0)
+H[a[0]]="6"
+a.pop(0)
+H[a[0]]="7"
+a.pop(0)
+H[a[0]]="8"
+a.pop(0)
+H[a[0]]="9"
+a.pop(0)
+H[a[0]]="10"
+a.pop(0)
+H[a[0]]="11"
+a.pop(0)
+H[a[0]]="12"
+a.pop(0)
+H[a[0]]="13"
+a.pop(0)
+H[a[0]]="14"
+a.pop(0)
+H[a[0]]="15"
+a.pop(0)
+H[a[0]]="16"
+a.pop(0)
+H[a[0]]="17"
+
+
 print(H.ranuras)
+print(H.datos)
 
 
 
