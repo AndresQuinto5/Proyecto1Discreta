@@ -1,6 +1,7 @@
 # Matematica discreta proyecto 1
-# AndresEmilioQuinto 18288
-# AndreeToledo 18439
+# AndresEmilioQuinto 18288 Seccion 10
+# AndreeToledo 18439 Seccion 20
+
 
 
 #-----------------------------------------------------------------------------------------------------------------
