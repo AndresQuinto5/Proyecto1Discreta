@@ -14,20 +14,23 @@ def linearCongruentialMethod(s, m, a, c, randomNums, QTYrandomNums):
         # ref: https://drive.google.com/drive/u/0/folders/1XizWdUQp5X4o4nmjqAJUbbQbpnTk2Koq
         randomNums[i] = ((randomNums[i - 1] * a) + c) % m
 
+
+print("Bienvenido al programa de nuestro proyecto, porfavor ingrese que funcion desea probar:")
+menu = int(input("1. Funcion Hash \n2. Numeros pseudoaleatorios\n"))
 # Codigo Main del programa
 
-if __name__ == '__main__':
+if menu == 2:
 
     print("Ingrese el valor de la semilla s: \n")
     s = int(input())
-    print("Ingrese el valor del modulo M: \n ")
+    print("Ingrese el valor del modulo M: \n")
     m = int(input())
-    print("Ingrese el valor de el multiplicador termino a: \n ")
+    print("Ingrese el valor de el multiplicador termino a: \n")
     a = int(input())
-    print("Ingrese el valor del incremento termino c: \n ")
+    print("Ingrese el valor del incremento termino c: \n")
     c = int(input())
-    print("HACIENDO CALCULOS....: \n ")
-    print("El resultado final es: \n ")
+    print("HACIENDO CALCULOS....: \n")
+    print("El resultado final es: \n")
 
     # # Valor de la semilla
     # s = 3
