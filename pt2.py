@@ -1,4 +1,4 @@
-m = int(input("En que modulo desea trabajar:"))
+m = 17
 
 class TablaHash:
     def __init__(self):
@@ -61,7 +61,7 @@ a = [1489,1237,1312,1548,1209,853,519,992,339,535,883,1246,1325,582,82,1517,744]
 
 
 H=TablaHash()
-H[a[0]]= 1 
+H[a[0]]="1" 
 a.pop(0)
 H[a[0]]="2"
 a.pop(0)
@@ -97,10 +97,6 @@ H[a[0]]="17"
 
 
 print(H.ranuras)
-print(H.datos)
+#print(H.datos)
 
-
-
-H[20]='pato'
-print(H[20])
 
